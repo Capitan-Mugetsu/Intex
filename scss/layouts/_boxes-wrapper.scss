@@ -1,0 +1,49 @@
+.boxes-wrapper {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20rem;
+
+    .wrapper {
+        width: 90%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        margin-left: 4rem;
+
+        .box {
+            width: 34%;
+            margin-left: 4rem;
+            height: 18rem;
+            box-sizing: border-box;
+            padding: 2.5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+            border-top-right-radius: 5rem;
+            border-bottom-left-radius: 5rem;
+            background-color: $color-white;
+        }
+
+            .item {
+                display: flex;
+                align-items: center;
+
+                .number {
+                    font-size: 5rem;
+                    color: $color-grey-blue;
+                }
+
+                .title {
+                    margin-left: 2.5rem;
+                    font-size: 1.9rem;
+                    font-weight: 900;
+                }
+            }
+
+            .infor {
+                margin-top: 1.5rem;
+                font-size: 1.6rem;
+                color: $color-grey;
+            }
+    }
+}
